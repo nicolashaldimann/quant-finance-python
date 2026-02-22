@@ -22,11 +22,13 @@ The code is written to work with scalars and NumPy arrays, with explicit handlin
 - implied_vol_put(price, S, K, T, r, ...)
 
 Implied vols are computed using Brent’s method (robust 1D root solver). The implementation also checks no-arbitrage bounds before attempting to solve.
-
-## Installation
-- numpy
-- scipy
+### Requirements
+- `numpy`
+- `scipy`
 
 Example:
-bash
+
+```bash
 pip install numpy scipy
+
+
