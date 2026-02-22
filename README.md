@@ -1,4 +1,4 @@
-# Black-Scholes Model (Python)
+# Black-Scholes Model 
 A lightweight, NumPy-first implementation of the Black–Scholes framework for European options:
 - Closed-form pricing (Call / Put)
 - Greeks (Delta, Gamma, Vega, Theta, Rho)
@@ -24,8 +24,6 @@ The code is written to work with scalars and NumPy arrays, with explicit handlin
 Implied vols are computed using Brent’s method (robust 1D root solver). The implementation also checks no-arbitrage bounds before attempting to solve.
 
 ## Installation
-
-### Requirements
 - numpy
 - scipy
 
